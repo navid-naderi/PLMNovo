@@ -1,6 +1,6 @@
 # PLMNovo
 
-Implementation Code of PLMNovo: Protein Language Model–Aligned Spectra Embeddings for *De Novo* Peptide Sequencing, a novel constrained learning method to incorporate pre-trained protein language models (PLMs) into deep learning-based *de novo* peptide sequencing (Preprint Coming Soon).
+Implementation Code of [PLMNovo: Protein Language Model–Aligned Spectra Embeddings for *De Novo* Peptide Sequencing](https://www.biorxiv.org/content/10.1101/2025.10.01.679857v1), a novel constrained learning method to incorporate pre-trained protein language models (PLMs) into deep learning-based *de novo* peptide sequencing (Preprint Coming Soon).
 
 ![Overview of PLMNovo.](https://github.com/navid-naderi/PLMNovo/blob/main/assets/fig_overview_plmnovo.png)
 
@@ -49,3 +49,17 @@ The current implementation of PLMNovo support two PLMs (ESM-2 8M and ESM-2 650M)
 
 ## Acknowledgments
 This repository is built upon the [Casanovo GitHub repository](https://github.com/Noble-Lab/casanovo).
+
+
+## Citation
+
+If you use PLMNovo, please cite our preprint using the following BibTeX format:
+```
+@article{naderializadeh2025_plmnovo,
+  title={Protein Language Model-Aligned Spectra Embeddings for De Novo Peptide Sequencing},
+  author={NaderiAlizadeh, Navid and Dallago, Christian and Soderblom, Erik J and Soderling, Scott H},
+  journal={bioRxiv},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
